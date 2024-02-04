@@ -1,3 +1,4 @@
+SPOTIFY Data Pipeline Using SNOWFLAKE, AWS and PYTHON
 
 Imagine a symphony of data flowing seamlessly from the world of Spotify into the cloud, orchestrated by the magic of Python and the power of AWS and Snowflake. In this project, I designed and implemented an ETL (Extract, Transform, Load) pipeline that harmoniously blends the artistry of music with the precision of data processing.
 
@@ -8,6 +9,7 @@ But the grand finale is yet to come. With our transformed data in hand, the spot
 And that's where the real magic happens. With our refined Snowflake data, we can create insightful dashboards that reveal the hidden gems within the music data, unlocking a world of valuable insights.
 
 So, if you're ready to join this symphony of data, come and explore the repository to witness the harmonious fusion of music and technology!
+
 
 Snowflake:
 
