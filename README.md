@@ -37,7 +37,7 @@ In Snowflake, the transformed data awaited analysis, offering a treasure trove o
 
 ## Spotify_extract_data
 
-![App Screenshot](https://github.com/VennapusaManoj1998/Building-a-Scalable-Spotify-Data-Pipeline-with-Snowflake-AWS-and-Python/blob/main/AWS_functions/spotify_extract_data.py)
+![App Screenshot](https://github.com/VennapusaManoj1998/Building-a-Scalable-Spotify-Data-Pipeline-with-Snowflake-AWS-and-Python/blob/main/AWS_functions/AWS%20Lambda%20Extract%20Function.png)
 
 
 ## Spotify_transform_data
