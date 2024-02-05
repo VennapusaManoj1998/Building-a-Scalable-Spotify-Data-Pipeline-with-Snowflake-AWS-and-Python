@@ -14,7 +14,46 @@ In Snowflake, the transformed data awaited analysis, offering a treasure trove o
 
 
 
-## Screenshots
+## Architecture Flow
 
 ![App Screenshot](https://github.com/VennapusaManoj1998/Data-Engineering/blob/main/Architecture.jpeg)
 
+
+## Integrating Spotify Data with Snowflake and AWS
+
+**Register for Spotify Developer Account: Sign up for a Spotify developer account on their website to gain access to their API.**
+
+**Install Required Packages:** In your Python environment (e.g., Jupyter notebook or Google Colab), install the spotipy package using !pip install spotipy. This package allows you to interact with the Spotify API.
+
+**Set Up Spotify API Credentials:** Obtain your client ID and client secret from the Spotify Developer Dashboard. Use these credentials to authenticate your API requests.
+
+**Retrieve Playlist Data:** Use the spotipy library to fetch data from a Spotify playlist. This data typically includes information about albums, artists, and songs.
+
+**Data Transformation:** Convert the raw data into a structured format, such as a Pandas dataframe, for easier analysis. Perform any necessary data cleaning or preprocessing steps.
+
+**AWS Setup:** Log in to your AWS account. Set up an S3 bucket to store your data. Organize the bucket with folders for raw and transformed data.
+
+**Lambda Functions:** Create AWS Lambda functions to automate the data extraction and transformation process. These functions can be triggered by events such as new data being added to the S3 bucket.
+
+## Spotify_extract_data
+
+![App Screenshot](https://github.com/VennapusaManoj1998/Building-a-Scalable-Spotify-Data-Pipeline-with-Snowflake-AWS-and-Python/blob/main/AWS_functions/spotify_extract_data.py)
+
+
+## Spotify_transform_data
+
+![App Screenshot](https://github.com/VennapusaManoj1998/Building-a-Scalable-Spotify-Data-Pipeline-with-Snowflake-AWS-and-Python/blob/main/AWS_functions/AWS%20Lambda%20Transform%20Function.png)
+
+**Role and Permissions:** Create an IAM role with the necessary permissions for your Lambda functions to access the S3 bucket and other AWS services.
+
+**Data Loading to Snowflake:** If you're using Snowflake as your data warehouse, configure the integration between Snowflake and S3. Define stages and file formats in Snowflake to facilitate data loading.
+
+**Snowpipe Setup:** Create Snowpipes in Snowflake to automatically load data from S3 into your Snowflake tables. Configure event notifications in S3 to trigger Snowpipes when new data is added.
+
+# Snowflake
+
+![App Screenshot](https://github.com/VennapusaManoj1998/Building-a-Scalable-Spotify-Data-Pipeline-with-Snowflake-AWS-and-Python/blob/main/Snowflake_pipeline/Snowflake%20.png)
+
+**Testing and Monitoring:** Test your pipeline to ensure that data is being extracted, transformed, and loaded correctly. Set up monitoring and logging to track the performance of your pipeline.
+
+**Dashboard Creation:** Once your data is loaded into Snowflake, you can use it to create insightful dashboards and visualizations for analysis.
