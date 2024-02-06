@@ -19,6 +19,20 @@ In Snowflake, the transformed data awaited analysis, offering a treasure trove o
 ![App Screenshot](https://github.com/VennapusaManoj1998/Data-Engineering/blob/main/Architecture.jpeg)
 
 
+
+## Key Components
+
+
+- **Apache NiFi:** Orchestrates the real-time flow of data, ensuring seamless integration and processing.
+
+- **AWS S3:** Provides scalable storage for the streamed data, enabling real-time access and storage.
+
+- **Snowflake:** Processes the data in real-time, leveraging Snowpipe for automatic data ingestion and processing.
+
+- **IAM (Identity and Access Management):** Manages permissions and access control for AWS services, ensuring secure and controlled data processing.
+
+
+
 ## Integrating Spotify Data with Snowflake and AWS
 
 **Register for Spotify Developer Account: Sign up for a Spotify developer account on their website to gain access to their API.**
